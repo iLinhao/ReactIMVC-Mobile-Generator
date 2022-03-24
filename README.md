@@ -1,4 +1,4 @@
-# WealthMobile-Generator
+# ReactIMVC-Mobile-Generator
 
 ReactIMVC Mobile程序骨架生成器，基于Yeoman脚手架工具规范ReactIMVC Mobile程序开发并提高开发效率。
 
