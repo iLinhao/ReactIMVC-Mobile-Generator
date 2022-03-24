@@ -22,5 +22,5 @@ npm link
 ## 新建Feature项目目录并使用generator初始化代码
 ```
 cd feature-xxx
-yo wealthmobile
+yo reactimvcmobile
 ```
