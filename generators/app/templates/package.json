@@ -1,0 +1,35 @@
+{
+  "name": "slmini-seed-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "dotenv -e .env.dev -- react-imvc start --config imvc.config.js",
+    "build:prod": "dotenv -e .env.prod -- react-imvc build --config ./imvc.config.js",
+    "build:sit": "dotenv -e .env.sit -- react-imvc build --config ./imvc.config.js",
+    "lint": "eslint {src} --ext .ts,.tsx,.js,jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd-mobile": "^2.3.4",
+    "dotenv-cli": "^5.0.0",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-imvc": "^3.0.14"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.18",
+    "@types/react-dom": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "eslint": "^7.32.0",
+    "eslint-config-alloy": "^4.3.0",
+    "eslint-plugin-react": "^7.25.1",
+    "prettier": "^2.4.0",
+    "typescript": "^4.3.5",
+    "vconsole-webpack-plugin": "^1.7.3"
+  }
+}
